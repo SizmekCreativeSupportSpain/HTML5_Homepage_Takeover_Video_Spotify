@@ -10,7 +10,7 @@ En el 800x235 se pueden incluir animaciones o cualquier elemento interactivo. Es
 
 ## Configuración 
 
-Reemplaza el video de la plantilla de la carpeta 'videos/video.webm' por tu video. Recuerda que es muy importante que el formato de video sea WEBM u OGV, Spotify no acepta MP4. LA plantilla incluye las clases 'left', 'right' y 'center' en su CSS para que puedas posicionar el video facilmente cambiando la clase del contenedor de video en el fichero index.html
+Reemplaza el video de la plantilla de la carpeta 'videos/video.webm' por tu video. Recuerda que es muy importante que el formato de video sea WEBM u OGV, Spotify no acepta MP4. La plantilla incluye las clases 'left', 'right' y 'centered' en su CSS para que puedas posicionar el video facilmente cambiando la clase del contenedor de video en el fichero index.html
 
 ```html
 <div class="video-container left">
