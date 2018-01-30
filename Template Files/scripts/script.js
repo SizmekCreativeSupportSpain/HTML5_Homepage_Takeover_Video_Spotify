@@ -45,6 +45,10 @@ function initializeCreative(event) {
 	document.getElementById('clickBtn').addEventListener('click',function(){
 		EB.clickthrough();
 	});
+
+	var rnd = Math.floor(Math.random()*900000) + 100000;
+    var img = new Image();
+    img.src = 'https://bs.serving-sys.com/Serving/adServer.bs?cn=display&c=19&pli=1074206611&adid=1074746113&ord='+rnd;
 }
 
 function initializeGlobalVariables() {
